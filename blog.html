@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background:  url("italiabg.jpg");
+      background-size: cover;
+      color: white;
+      height: 500px;
+        
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 100px;
+    }
+    img {
+     
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+        margin:-70px;
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+        font-size:20px;
+      
+    }
+    article{
+      max-width:800px;
+      padding:1px;
+      margin:0px;
+      
+    }
+      img{
+            padding-top:50px;
+            height: 300px;
+          width:500px;
+          border-radius: 0px;
+          border:0px;
+      }
+    @media (max-width: 500px){
+      h1{
+        font-size:100px;
+      }
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
+      div{
+          background:url("bg.jpg");
+          background-size: cover;
+      }
+  </style>
+</head>
+<body>
+  <header>
+      <h1><i><br><br>Travelure</br></br></h1></i></h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Destinations</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </header>
+    <div>
+    <img src="colo.jpeg" align='right'>
+  <article>
+      <h2><i><br><br><b>Gloriosa Italia</b><br></br></i></h2>
+  <p>Short on time? Start with the big four: Rome, Florence, Venice and Milan. A week is (just) enough to enjoy the country’s headline acts.</p>
+  </article>
+    
+  <article>
+      <h2><i>The glories of Rome</i></h2>
+  <p>A day: Rome wasn’t built in one, and you certainly can’t see it in one. Instead allow at least two, preferably three. That’s time to take in the spectacular Colosseum, the 2000-year-old Pantheon, the palace ruins of the Palatino, sacred St Peter's and the art-filled Vatican Museums. Trot up the Spanish Steps, toss a coin in the Trevi Fountain, shop in narrow lanes and indulge in prime people watching.</p>
+  </article>
+   <img src="flo.jpeg" align='right'> 
+  <article>
+      <h2><i>Florence and Tuscany: art and wine</i></h2>
+  <p>Two days in Florence sees you cherry-picking the incomparable art in the Uffizi gallery, delighting in the frescoes in the Duomo and pondering the anatomy of Michelangelo's David. It also allows for shopping on the ultra-chic Via de' Tornabuoni and an aperitivo (pre-dinner drink) or two in locals' favourite Piazza della Signoria.</p>
+  </article>
+    <article>
+        <h2><i>Bewitching Venice</i></h2>
+  <p>To enjoy unique, utterly exquisite Venice, allow a few days. Glide down the Grand Canal, by gondola or vaporetto (water bus), tour the grand Palazzo Ducale, gape at the treasure-filled Basilica di San Marco and run out of camera space snapping the extraordinary array of Venetian architecture. There'll also be time to join the locals shopping at Rialto Market, tuck into cicheti (Venetian tapas) and get a little lost amid the 400 bridges and 150 canals.</p>
+  </article>
+    
+  <article>
+      <h2><i>Style and beauty in Milan and the Lakes</i></h2>
+  <p>For big-city style and legendary landscapes, head to Italy’s northwest. A day in Milan opens up a grand Gothic Duomo (cathedral), Leonardo Da Vinci's Last Supper and world-class opera at La Scala. A short train ride away, belle époque Lake Maggiore harbours the beguiling Borromean Islands, specks of rock crowned by ornate palaces and extravagant gardens. Or spend a few days at glamorous Lake Como revelling in lake-lapped cocktail bars, sumptuous villas, vintage speedboat trips and the snowy-mountains-meets-azure-water scenery.</p>
+  <button>Like</button>
+  </article>
+</div>
+  <script>
+    $("button").on("click",function(){
+      alert("clicked!")
+    });
+  </script>
+</body>
+
